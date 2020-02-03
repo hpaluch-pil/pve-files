@@ -1,0 +1,11 @@
+NAME         FSTYPE      LABEL UUID                                   FSAVAIL FSUSE% MOUNTPOINT
+sda                                                                                  
+├─sda1                                                                               
+├─sda2       vfat              4986-4B05                                             
+└─sda3       LVM2_member       91FsCP-ZWYN-hjDc-3TyS-XVAl-ewkd-gUweXz                
+  ├─pve-swap swap              b2506849-e530-4e0a-86f7-5cd0eee94916                  [SWAP]
+  ├─pve-root ext4              6bda0ee8-73e0-45fb-b824-2444b1c9f19e     43.8G     6% /
+  └─pve-data ext4              f6c0c52c-b934-4e5a-94be-3fcca8e8e21b      675G    12% /var/lib/vz
+sdb                                                                                  
+└─sdb1       ext4              140fc243-d1a3-4141-bfcb-447b41173b7d    257.9G    39% /mnt/backups
+sr0                                                                                  
