@@ -4,6 +4,6 @@ Use on your own risk.
 
 ## Repository layout
 
-tree/ - files from "/" (root) tree common to all my installations
-instances/NAME/ - instance specific files
+- `tree/` - files from `/` (root) tree common to all my installations
+- `instances/NAME/` - instance specific files
 
