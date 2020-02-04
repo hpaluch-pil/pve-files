@@ -4,4 +4,5 @@
 proc /proc proc defaults 0 0
 UUID=f6c0c52c-b934-4e5a-94be-3fcca8e8e21b /var/lib/vz ext4 errors=remount-ro 0 2
 UUID=140fc243-d1a3-4141-bfcb-447b41173b7d /mnt/backups ext4 errors=remount-ro 0 2
+UUID=6de3a76a-4623-4e44-b07d-2cc050422554 /mnt/ssd ext4 errors=remount-ro 0 2
 
