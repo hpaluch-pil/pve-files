@@ -1,0 +1,4 @@
+
+# dump config.db to backup directory
+10 12 * * * root /usr/local/sbin/dump_config_db.sh /mnt/backups/misc/config-db-dumps
+
