@@ -33,4 +33,16 @@ tail -1 $t | egrep -q "^COMMIT" || {
 }
 gzip -9 $t
 
+# trivial recovery check (not much reliable)
+r=$(mktemp --suffix=.db)
+zcat $t.gz | sqlite3 "$r"
+ttt=$(sqlite3 "$r" .tables)
+[ "$ttt" = "tree" ] || {
+	echo "Restored tables '$ttt' <> 'tree'" >&2
+	exit 1
+}
+rm -f -- "$r"
+
+
+
 exit 0
