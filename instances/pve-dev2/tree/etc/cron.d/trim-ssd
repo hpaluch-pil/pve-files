@@ -1,5 +1,5 @@
 
 # trim our ssd daily
-5 11 * * * root fstrim -v /mnt/ssd
+5 11 * * * root /usr/sbin/fstrim -v /mnt/ssd
 
 
