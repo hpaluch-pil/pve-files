@@ -1,6 +1,7 @@
 #!/bin/bash
-
-# push current branch to origin "origin" with tags and updates HEAD
+#
+# pushes current branch to origin "origin" with tags and updates HEAD
+#
 
 branch=''
 [ $# -eq 1 ] || {
